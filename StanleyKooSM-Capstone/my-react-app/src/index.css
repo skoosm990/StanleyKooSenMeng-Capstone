@@ -1,3 +1,4 @@
+
 /* General Style */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -18,10 +19,22 @@
     max-width: 900px; /* Adjust based on your needs */
     margin: 40px auto;
     padding: 20px;
-    background-color: #f4eded;
+    background-color: #ece6e6;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.portfolio-icon {
+  max-width: 50px; /* Set a max width */
+  max-height: 50px; /* Set a max height */
 }
 
 
